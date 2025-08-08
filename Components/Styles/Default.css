@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background: initial;
+    height: 100%;
+    background-color:snow;
+    margin: 0%;
+    padding: 0%;
+}
+
+.pagina {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vw;
+}
+
+.barra {
+    display: block;
+    width: 100vw;
+    margin: 0%;
+    padding: 0%;
+}
+
+.contenido{
+    flex-grow:1;
+    background-color:snow;
+}
+
+.Footer {
+    background-color: forestgreen;
+    width: 100vw;
+    min-height: 5vw;
+    margin-top: auto;
+    flex-shrink: 0;
+}
+
+.boton {
+    font-size: 2vw;
+    color: aliceblue;
+    border: 0.2vw, solid, white;
+    background-color: transparent;
+    border-radius: 30px;
+    height: 3.5vw;
+    padding-inline: 2vw;
+}
+
+    .boton:hover {
+        color: #c8dbc6;
+        background-color: #3c7d33;
+        border-color: #c8dbc6;
+        height: 3.7vw;
+        cursor: pointer;
+    }
+
+.boton2 {
+    font-size: 2vw;
+    color: aliceblue;
+    border: 0.15vw, solid, white;
+    background-color: transparent;
+    border-radius: 30px;
+    height: 3.5vw;
+    padding-inline: 2vw;
+}
+
+    .boton2:hover {
+        color: #ffec44;
+        border-color: #ffec44;
+        background-color: #7c1212;
+        height: 3.7vw;
+        cursor: pointer;
+    }
+
+.superior {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2vw;
+    box-sizing: border-box;
+    margin: 0;
+    width: 100%;
+    height: 7vw;
+    border-style: none;
+    background: rgb(63, 62, 62);
+    color: rgb(252, 252, 252);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 5vw;
+}
+
+.inferior {
+    box-sizing: border-box;
+    margin: 0;
+    width: 100%;
+    height: 7vw;
+    border-style: none;
+    background: rgb(93, 167, 59);
+    color: rgb(252, 252, 252);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1 {
+    font-size:1.5vw;
+    width: 100%;
+    background-color: #3c7d33;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    color: #c8dbc6;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1:hover{
+    color:aliceblue;
+}

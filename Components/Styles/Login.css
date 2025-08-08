@@ -1,0 +1,74 @@
+.pagina {
+    background: linear-gradient(to bottom, #001322, #203c27);
+    max-height:100%;
+}
+.Contenido{
+
+}
+form {
+    
+    margin: 2vw;
+    min-height: 10vw;
+    min-width: 15vw;
+    background-image: url("../../src/assets/LogoDetallado.png");
+    background-repeat: no-repeat;
+    background-position: Center 70%;
+    background-attachment:inherit;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    align-self: center;
+    color: aliceblue;
+    align-content: space-between;
+    width: 46vw;
+    padding-top: 30%;
+    border-radius: 5vw;
+    box-shadow: 5px 7px 5px rgba(0, 0, 0, 0.069);
+}
+
+form button{
+    color: aliceblue;
+    margin: 2.5px;
+    background-color: transparent;
+    padding: 0.7vw;
+    font-size: 1vw;
+    border-color: aliceblue;
+    border-radius: 10px;
+    cursor: pointer;
+    padding-inline: 7vw;
+}
+form button:Hover{
+    color: greenyellow;
+    border-color: greenyellow;
+    box-shadow: 5px 5px 5px rgba(172, 255, 47, 0.134);
+}
+form input{
+    text-align: left;
+    color: rgb(171, 171, 171);
+    background-color: white;
+    padding: .7vw;
+    font-size: large;
+    border-color: rgb(119, 119, 119);
+    border-radius: 10px;
+    cursor: pointer;
+    width: 25vw;
+    
+}
+form label{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    margin-inline: 10px;
+}
+form input:Hover{
+    box-shadow: 5px 5px 5px rgba(172, 255, 47, 0.218);
+}
+
+
+form .Campo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
